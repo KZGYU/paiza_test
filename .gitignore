@@ -1,4 +1,3 @@
-gitignore
 # Java
 *.class
 *.jar
@@ -8,10 +7,11 @@ gitignore
 # Eclipse
 .project
 .classpath
-.settings
+.settings/
+.metadata/
 
 # Idea
-.idea
+.idea/
 *.iml
 *.iws
 *.ipr
@@ -21,16 +21,19 @@ Thumbs.db
 .DS_Store
 
 # Gradle
-.gradle
+.gradle/
 !gradle-wrapper.jar
 
 # Maven
-target
+target/
 
 # Build
-out
-build
-bin
+out/
+build/
+bin/
+
+# Tomcat関連 (追加)
+Servers/
 
 # Other
 *.log
