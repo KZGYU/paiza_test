@@ -1,4 +1,4 @@
-package Dlank;
+package blank;
 
 import java.util.Scanner;
 
